@@ -10,14 +10,14 @@ export default function Home() {
         <div className="text-center w-8/10 sm:w-3/5">
           <h2 className="text-3xl items-center font-bold">Hi there!</h2>
           <img src="./PB.jpg" alt="ME" className="my-5 h-60 w-60 rounded-full m-auto"></img>
-          <h2 className="text-3xl items-center font-bold">I'm Magnus Hem </h2>
+          <h2 className="text-3xl items-center font-bold">I am Magnus Hem </h2>
           <div className="my-10">
             <p className="text-xl my-10">This is my portfolio. <br></br> Here you
               can read about me and get to know me. You can also take a look at some
               of my projects that i have made myself or with my group while studying.
               If you have any questions, feel free to contact me.</p>
             <p className="text-xl">
-              I'm studying a bachelor in computer science (2021-2024) at Aalborg
+              I am studying a bachelor in computer science (2021-2024) at Aalborg
               university(AAU). I have always had an interest in computers, and
               how they work. Therefore I decided to make my hobby my work. Even
               though the basics of computer science was my hobby before I started,
