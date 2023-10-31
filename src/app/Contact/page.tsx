@@ -9,7 +9,7 @@ const Contacts = () => {
         <div className="text-center w-11/12 sm:w-3/5">
           <h2 className="text-2xl py-6">
             Fill out the form below and I will reach out to you as soon as possible.<br />
-            You can also send me an E-mail directly by clicking the mail icon in the to right corner.
+            You can also send me an E-mail directly by clicking the mail icon in the top right corner.
           </h2>
 
           <div className="flex">

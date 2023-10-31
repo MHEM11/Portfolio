@@ -14,7 +14,7 @@ export default function Home() {
           <div className="my-10">
             <p className="text-xl my-10">This is my portfolio. <br></br> Here you
               can read about me and get to know me. You can also take a look at some
-              of my projects that i have made myself or with my group while studying.
+              of my projects that I have made myself or with my group while studying.
               If you have any questions, feel free to contact me.</p>
             <p className="text-xl">
               I&apos;m studying a bachelor in computer science (2021-2024) at Aalborg
@@ -27,7 +27,7 @@ export default function Home() {
               AAU, I have learned to challenge myself, which I think is one of my
               strengths. I believe that working together as a team will get you
               further than you can on your own. I have rarely said no to a challenge
-              as i believe that if you challenge yourself, you will learn from it,
+              as I believe that if you challenge yourself, you will learn from it,
               even if you fail. There is always a lesson to be thought through
               success and through failures. Lessons you would not want to miss.
             </p>
@@ -61,7 +61,7 @@ export default function Home() {
           </div>
           <div className="items-center my-10">
             <h2 className="text-2xl font-bold">
-              Skills and Competence
+              Skills and Competences
             </h2>
             <ul className="list-disc list-inside">
               <li className="text-xl">
@@ -71,7 +71,7 @@ export default function Home() {
                 Basic knowledge about databases and SQL
               </li>
               <li className="text-xl">
-                Experiences with software engineering i cooperation with a team
+                Experiences with software engineering in cooperation with a team
               </li>
               <li className="text-xl">
                 The ability to work in teams and communicate efficiently with colleagues and customers 
