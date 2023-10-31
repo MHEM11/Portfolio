@@ -2,7 +2,7 @@ import Navbar from "./Navbar"
 import Dropdown from "./Dropdown"
 
 
-import React from 'react'
+import React from "react"
 
 const Headers = () => {
   return (

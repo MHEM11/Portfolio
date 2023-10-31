@@ -1,13 +1,13 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Roboto } from 'next/font/google'
+import "./globals.css"
+import type { Metadata } from "next"
+import { Roboto } from "next/font/google"
 
 const inter = Roboto({
-  subsets: ['latin'], weight: ['400']})
+  subsets: ["latin"], weight: ["400"]})
 
 export const metadata: Metadata = {
-  title: 'Magnus Hem - portfolio',
-  description: 'Made by Magnus Hem Jensen',
+  title: "Magnus Hem - portfolio",
+  description: "Made by Magnus Hem Jensen",
 }
 
 export default function RootLayout({
