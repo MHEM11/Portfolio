@@ -1,9 +1,6 @@
 "use client"
 import React from "react"
 import NavAndDD from "./components/Headers"
-const fetch = require("node-fetch");
-
-var myHeaders = new fetch.Headers();
 
 export default function Home() {
   return (
