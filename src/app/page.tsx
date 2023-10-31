@@ -1,11 +1,11 @@
 "use client"
 import React from "react"
-import Headers from "./components/Headers"
+import NavAndDD from "./components/Headers"
 
 export default function Home() {
   return (
     <main className="bg-gradient-to-b from-slate-700 to-slate-500 text-white min-h-screen">
-      <Headers/>
+      <NavAndDD/>
       <div className="flex justify-center items-center pt-10 sm:pt-0">
         <div className="text-center w-8/10 sm:w-3/5">
           <h2 className="text-3xl items-center font-bold">Hi there!</h2>

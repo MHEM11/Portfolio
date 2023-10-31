@@ -4,7 +4,7 @@ import Dropdown from "./Dropdown"
 
 import React from "react"
 
-const Headers = () => {
+const NavAndDD = () => {
   return (
     <header>
     <Navbar/>
@@ -13,4 +13,4 @@ const Headers = () => {
   )
 }
 
-export default Headers
+export default NavAndDD
