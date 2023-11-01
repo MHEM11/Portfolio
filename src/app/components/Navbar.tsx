@@ -21,7 +21,7 @@ const Navbar = () => {
       <ul className="flex space-x-12">
               {links.map(link => <Link href={link.href} key={link.href} className={classNames({
                 "text-white":true, 
-                "text-3xl":true,
+                "text-2xl":true,
                 "rounded-full":true,
                 "px-4": true,
                 "py-1": true,
@@ -35,7 +35,7 @@ const Navbar = () => {
       </div>
       <div className="right-2 fixed top-2.5 flex items-center space-x-3" >
         <a className="hover:scale-110" href="mailto:jensenmagnushem@gmail.com">
-          <IoIosMail size="3rem"/>
+          <IoIosMail size="2.5rem"/>
         </a>
         <a className="hover:scale-110" href="https://www.linkedin.com/in/magnus-hem-jensen-7112b0225/" target="_blank" rel="noreferrer">
           <FaLinkedin size="2.5rem"></FaLinkedin>
