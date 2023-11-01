@@ -24,10 +24,11 @@ const Navbar = () => {
                 "text-2xl":true,
                 "rounded-full":true,
                 "px-4": true,
-                "py-1": true,
                 "bg-slate-700": link.href !== curPath,
                 "bg-slate-600": link.href === curPath,
                 "hover:bg-slate-800": true,
+                "hover:scale-105": true,
+                "transition-colors ":true
               })}>
   {link.label}
 </Link>)}
