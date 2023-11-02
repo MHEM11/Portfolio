@@ -1,16 +1,16 @@
 import React from "react"
-import Headers from "../components/Headers"
+import NavAndDD from "../components/Headers"
 
 const Contacts = () => {
   return (
     <main className="bg-gradient-to-b from-slate-700 to-slate-500 text-white min-h-screen">
-      <Headers />
-      <div className="flex flex-col justify-center items-center pt-10 sm:pt-0">
+      <NavAndDD />
+      <div className="flex flex-col justify-center items-center pt-10 md:pt-0">
         <div className="text-center w-11/12 sm:w-3/5">
           <h2 className="text-2xl pt-6">
             Fill out the form below and I will reach out to you as soon as possible.<br />
           </h2>
-          <h2 className="hidden text-2xl pb-6 sm:contents">
+          <h2 className="hidden text-2xl pb-6 md:contents">
           You can also send me an E-mail directly by clicking the mail icon in the top right corner.
           </h2>
 

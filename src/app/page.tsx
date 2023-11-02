@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <main className="bg-gradient-to-b from-slate-700 to-slate-500 text-white min-h-screen">
       <NavAndDD/>
-      <div className="flex justify-center items-center pt-10 sm:pt-0">
-        <div className="text-center w-8/10 sm:w-3/5">
+      <div className="flex justify-center items-center pt-10 md:pt-0">
+        <div className="text-center w-11/12 md:w-3/5">
           <h2 className="text-3xl items-center font-bold">Hi there!</h2>
           <img src="./PB.jpg" alt="ME" className="my-5 h-60 w-60 rounded-full m-auto"></img>
           <h2 className="text-3xl items-center font-bold">I&apos;m Magnus Hem </h2>
-          <div className="my-10">
+          <div className="my-10  items-center justify-center">
             <p className="text-xl my-10">This is my portfolio. <br></br> Here you
               can read about me and get to know me. You can also take a look at some
               of my projects that I have made myself or with my group while studying.

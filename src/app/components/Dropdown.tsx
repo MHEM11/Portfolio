@@ -17,13 +17,26 @@ const Dropdown = () => {
   ]
   return (
     <nav className="flex w-full justify-between fixed bg-slate-700" id="large">
-      <button onClick={() => setIsOpen((prev) => !prev)} className=" w-full justify-between flex items-center  px-1 text-3xl">
-        Menu
+      <button onClick={() => setIsOpen((prev) => !prev)} className=" w-full justify-between flex items-center px-1 text-3xl">
+        <ul>
+              {links.map(link => <Link href={link.href} key={link.href} className={classNames({
+                "text-white": true,
+                "text-3xl":true,
+                "px-1": true,
+                "w-full": true,
+                "rounded-full": true,
+                "block": true,
+                "hidden": link.href !== curPath,
+                "hover:bg-slate-800": true 
+              })}>
+                {link.label}
+              </Link>)}
+          </ul>
         {!isOpen ? (<DownArrow size="1.3rem" ></DownArrow>) : (<LeftArrow size="1rem"></LeftArrow>)}
       </button>
       {
         isOpen && (
-          <div className="absolute top-8 w-full  rounded-b-2xl">
+          <div className="absolute top-8 w-full rounded-b-2xl bg-slate-700 pl-1">
             <ul>
               {links.map(link => <Link href={link.href} key={link.href} className={classNames({
                 "text-white": true,
@@ -34,7 +47,8 @@ const Dropdown = () => {
                 "block": true,
                 "bg-slate-700": link.href !== curPath,
                 "bg-slate-600": link.href === curPath,
-                "hover:bg-slate-800": true 
+                "hidden": link.href === curPath,
+                "hover:bg-slate-800": true, 
               })}>
                 {link.label}
               </Link>)}
