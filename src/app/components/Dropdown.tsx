@@ -27,7 +27,6 @@ const Dropdown = () => {
                 "rounded-full": true,
                 "block": true,
                 "hidden": link.href !== curPath,
-                "hover:bg-slate-800": true 
               })}>
                 {link.label}
               </Link>)}
@@ -36,7 +35,7 @@ const Dropdown = () => {
       </button>
       {
         isOpen && (
-          <div className="absolute top-8 w-full rounded-b-2xl bg-slate-700 pl-1">
+          <div className="absolute top-9 w-full rounded-b-2xl bg-slate-700 pl-1">
             <ul>
               {links.map(link => <Link href={link.href} key={link.href} className={classNames({
                 "text-white": true,
@@ -49,6 +48,7 @@ const Dropdown = () => {
                 "bg-slate-600": link.href === curPath,
                 "hidden": link.href === curPath,
                 "hover:bg-slate-800": true, 
+                "my-1": true,
               })}>
                 {link.label}
               </Link>)}
