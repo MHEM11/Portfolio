@@ -27,7 +27,7 @@ const Projects = () => {
               </li>
             </ul>
             <p className="w-10/12 text-xl">
-              In this project i learned to work with algorithms and compose effective code. I also started learning different programming languages and get a better understanding of programming.
+              In this project I learned to work with algorithms and compose effective code. I also started learning different programming languages and get a better understanding of programming.
             </p>
             <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
               <li className="text-2xl">
@@ -42,7 +42,7 @@ const Projects = () => {
             Hobby Projects
           </h2>
           <h2 className="text-xl py-5">
-            Through out my time at Aalborg University I have work on small hobby-projects, so that i could learn more about different programming languages and get better at programming. Some of the projects have been released so that I can use them myself, and other have not been released or are not done yet. Check out the projects released and ready to use bellow. <p className="hidden text-xl md:contents">You can also take a look at my GitHub page, by clicking the github logo in the top right corner</p>
+            Through out my time at Aalborg University I have work on small hobby-projects, so that I could learn more about different programming languages and get better at programming. Some of the projects have been released so that I can use them myself, and other have not been released or are not done yet. Check out the projects released and ready to use bellow. <p className="hidden text-xl md:contents">You can also take a look at my GitHub page, by clicking the github logo in the top right corner</p>
           </h2>
           <Link className="border text-xl bg-slate-800 rounded-lg mb-5 items-center py-3" href="./TraeningsMakker">TraeningsMakker</Link>
         </div>

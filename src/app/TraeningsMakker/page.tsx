@@ -5,12 +5,12 @@ import { MdOutlineKeyboardArrowLeft as BackArrow } from "react-icons/md"
 
 const TraeningsMakker = () => {
   const links = [
-    {label: "Push", href: "/Push" },
-    {label: "Pull", href: "/Pull" },
-    {label: "Legs", href: "/Legs" },
-    {label: "Exercises", href: "/Exercises" },
-    {label: "Calender", href: "/Calender" },
-    {label: "Profile", href: "/Profile" },
+    {label: "Push", href: "./TraeningsMakker/Push" },
+    {label: "Pull", href: "./TraeningsMakker/Pull" },
+    {label: "Legs", href: "./TraeningsMakker/Legs" },
+    {label: "Exercises", href: "./TraeningsMakker/Exercises" },
+    {label: "Calender", href: "./TraeningsMakker/Calender" },
+    {label: "Profile", href: "./TraeningsMakker/Profile" },
   ]
 
   return (
