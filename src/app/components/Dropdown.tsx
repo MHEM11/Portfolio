@@ -11,9 +11,12 @@ const Dropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
-    {label: "Home", href: "/" },
-    {label: "Projects", href: "/Projects" },
-    {label: "Contact", href: "/Contact"}
+    {label: "Push", href: "/Push" },
+    {label: "Projects", href: "/Pull" },
+    {label: "Contact", href: "/Legs" },
+    {label: "Contact", href: "/Exercises" },
+    {label: "Contact", href: "/Calender" },
+    {label: "Contact", href: "/Profile" },
   ]
 
   return (
