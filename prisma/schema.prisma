@@ -9,3 +9,16 @@ datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
+
+model Exercise {
+  id Int @id @default(autoincrement())
+  name String 
+  weight Int
+  progression Progression @default(NEW_WHEIGHT)
+}
+
+enum Progression {
+  NEW_WHEIGHT
+  STANDARD
+  NEXT_TIME_UP
+}
