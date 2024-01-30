@@ -13,29 +13,49 @@ const Projects = () => {
             School Projects
           </h2>
           <div className="flex flex-col justify-center items-center">
-          <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
-            <li className="text-2xl">
-              Intelligent Wastemanagment (1st Semester, Sep. 2021 - Dec. 2021)
-            </li>
-          </ul>
+            <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
+              <li className="text-2xl">
+              Intelligent Wastemangment (1st Semester, Sep. 2021 - Dec. 2021)
+              </li>
+            </ul>
             <p className="w-10/12 text-xl">
               In this project I learned the basics of working in a team and learned how to work with problem based learning. I also learned the basics of programming.
             </p>
+
             <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
               <li className="text-2xl">
-                Visualization of Algorithms and Data Structures (2st Semester, Jan. 2022 - May 2022)
+                Visualization of Algorithms and Data Structures (2nd Semester, Jan. 2022 - May 2022)
               </li>
             </ul>
             <p className="w-10/12 text-xl">
               In this project I learned to work with algorithms and compose effective code. I also started learning different programming languages and get a better understanding of programming.
             </p>
+            
             <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
               <li className="text-2xl">
-              Sales management system for Dialægt (3st Semester, Sep. 2022 - Dec. 2022)
+              Sales management system for Dialægt (3rd Semester, Sep. 2022 - Dec. 2022)
+              </li>
+            </ul>
+            <p className="w-10/12  text-xl">
+              In this project I learned how to work with object oriented programming and complex systems. I got experience with developing more advance programs. I also learned to work with professional partners as this project was in collaboration with Dialægt.
+            </p>
+            
+            <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
+              <li className="text-2xl">
+              Arduino Concurrent Extension (4th Semester, Jan. 2023 - May 2023)
+              </li>
+            </ul>
+            <p className="w-10/12 text-xl">
+              In this project I learned how to work design, define and implement a programming language. I got to know how a computer works on a deeper level and learned how to work with a Arduino.
+            </p>
+            
+            <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
+              <li className="text-2xl">
+              Sentiment Analysis and Effects of Preprocessing (5th Semester, Sep. 2023 - Dec 2023)
               </li>
             </ul>
             <p className="w-10/12 mb-10 text-xl">
-              In this project I learned how to work with object oriented programming and complex systems. I got experience with developing more advance programs. I also learned to work with professional partners as this project was in collaboration with Dialægt.
+              In this project I learned how to work with a machine and how it learns. I got to test and experiment with some of the features that effects the machines ability to learn and got to work with different classification algorithms. 
             </p>
           </div>
           <div className="flex flex-col justify-center items-center">
@@ -55,7 +75,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>  
+      </div>
     </main>
   )
 }
