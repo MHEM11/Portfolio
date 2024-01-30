@@ -14,6 +14,4 @@ function ChooseDropdown() {
     {label: "Contact", href: "/Profile" },
   ]
 
-  print(curPath);
 }
-ChooseDropdown();
