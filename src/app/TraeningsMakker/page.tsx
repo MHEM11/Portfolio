@@ -14,7 +14,7 @@ const TraeningsMakker = () => {
   ]
 
   return (
-    <main className="bg-gradient-to-b from-slate-700 to-slate-500 text-white min-h-screen">
+    <main className="bg-orange-400 text-white min-h-screen">
       <TM_header Name="TræningsMakker"/>
       <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col w-full items-center pt-12 space-y-7">
@@ -23,7 +23,7 @@ const TraeningsMakker = () => {
             "text-xl":true,
             "border-2": true,
             "rounded-2xl": true,
-            "bg-slate-800": true,
+            "bg-blue-600": true,
             "w-11/12": true,
             "items-center": true,
             "p-auto": true,
