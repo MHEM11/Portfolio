@@ -67,7 +67,7 @@ const Projects = () => {
             </h2>
             <div className="grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-5">
               <Link href="./TraeningsMakker" className="flex justify-center">
-                <div className="border bg-slate-600 md:border-none rounded-lg py-5 md:px-5 w-full ms:shadow-sm hover:shadow-md hover:scale-105 hover:shadow-slate-300 shadow-slate-200 text-xl">
+                <div className="border bg-slate-600 md:border-none rounded-lg py-5 md:px-5 w-full hover:shadow-sm hover:scale-105 transition-all hover:shadow-slate-300 shadow-slate-200 text-xl">
                   <h1 className="font-bold">Træningsmakker - TM</h1>
                   <p className="px-3 pt-3 hidden md:contents">TM is helpful for those who have a hard time remembering how much weight the lifted last time for a given exercise. With TM one can keep track of how much weight to use on each exercise</p>  
                 </div>
