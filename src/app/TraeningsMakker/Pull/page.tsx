@@ -1,8 +1,9 @@
 import React from 'react'
+import TM_header from '../TMComponents/TMheader'
 
 const Pull = () => {
   return (
-    <div>Pull</div>
+    <TM_header Name="Pull"/>
   )
 }
 

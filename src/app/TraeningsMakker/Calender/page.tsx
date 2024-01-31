@@ -1,8 +1,9 @@
 import React from 'react'
+import TM_header from '../TMComponents/TMheader'
 
 const Calender = () => {
   return (
-    <div>Calender</div>
+    <TM_header Name="Calender"/>
   )
 }
 

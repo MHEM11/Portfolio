@@ -1,8 +1,9 @@
 import React from 'react'
+import TM_header from '../TMComponents/TMheader'
 
 const Push = () => {
   return (
-    <div>Push</div>
+    <TM_header Name="Push"/>
   )
 }
 

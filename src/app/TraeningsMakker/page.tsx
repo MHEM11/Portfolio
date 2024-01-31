@@ -1,7 +1,7 @@
 import classNames from 'classnames'
 import Link from 'next/link'
 import React from 'react'
-import { MdOutlineKeyboardArrowLeft as BackArrow } from "react-icons/md"
+import TM_header from './TMComponents/TMheader'
 
 const TraeningsMakker = () => {
   const links = [
@@ -15,12 +15,7 @@ const TraeningsMakker = () => {
 
   return (
     <main className="bg-gradient-to-b from-slate-700 to-slate-500 text-white min-h-screen">
-      <header className="flex justify-center items-center">      
-        <Link href="./Projects" className="absolute top-2 left-2 border rounded-xl md:hidden">
-          <BackArrow size="2.5rem"></BackArrow>
-        </Link>
-        <h2 className="text-3xl pt-3 items-center">TræningsMakker</h2>
-      </header>
+      <TM_header Name="TræningsMakker"/>
       <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col w-full items-center pt-12 space-y-7">
           {links.map(link => <Link href={link.href} key={link.href} className={classNames({

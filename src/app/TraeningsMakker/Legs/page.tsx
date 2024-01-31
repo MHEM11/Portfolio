@@ -1,8 +1,9 @@
 import React from 'react'
+import TM_header from '../TMComponents/TMheader'
 
 const Legs = () => {
   return (
-    <div>Legs</div>
+    <TM_header Name="Legs"/>
   )
 }
 
