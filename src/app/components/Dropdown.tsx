@@ -31,7 +31,7 @@ const Dropdown = () => {
                 {link.label}
               </Link>)}
           </ul>
-        {!isOpen ? (<DownArrow size="1.3rem" ></DownArrow>) : (<LeftArrow size="1rem"></LeftArrow>)}
+        {!isOpen ? (<DownArrow size="1.3rem" ></DownArrow>) : (<LeftArrow size="1.3rem"></LeftArrow>)}
       </button>
       {
         isOpen && (
