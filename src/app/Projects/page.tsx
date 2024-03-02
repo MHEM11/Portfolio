@@ -79,7 +79,7 @@ const Projects = () => {
                   <p className="px-3 pt-3 hidden md:contents">ToDo-list is an app with a user name and by typing the username you get access to a &quot;private&quot; todo list. This app was made to get used to using Prisma on a very basic level. There is not much privacy/security within the app, but this was not the aim of the project.</p>  
                 </div>
               </Link>
-              <p className="px-3 pt-2 text-xl md:hidden">ToDo-list is an app with a username and by typing the username you get access to a &quot;private&quot; todo list. This app was made to get used to using Prisma on a very basic level. There is not much privacy/security within the app, but this was not the aim of the project. The app is formatted to a normal phone as this was the primary device for the app's use case.</p>
+              <p className="px-3 pt-2 text-xl md:hidden">ToDo-list is an app with a username and by typing the username you get access to a &quot;private&quot; todo list. This app was made to get used to using Prisma on a very basic level. There is not much privacy/security within the app, but this was not the aim of the project. The app is formatted to a normal phone as this was the primary device for the app&apos;s use case.</p>
             </div>
           </div>
         </div>
