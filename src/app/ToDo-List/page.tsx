@@ -16,12 +16,8 @@ const ToDo_List = () => {
     completed: boolean;
   }
 
-  interface toggleTodoProps{
-    id: string;
-    complete: boolean;
-  }
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e:FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     setTodos((currentTodos: Todo[]) => [ // Explicitly type currentTodos
