@@ -73,16 +73,14 @@ const Projects = () => {
                 </div>
               </Link>
               <p className="px-3 pt-2 text-xl md:hidden">TM is helpful for those who have a hard time remembering how much weight the lifted last time for a given exercise. With TM one can keep track of how much weight to use on each exercise</p>
+              <Link href="./ToDo-List" className="flex justify-center">
+                <div className="border bg-slate-600 md:border-none rounded-lg py-5 md:px-5 w-full hover:shadow-sm hover:scale-105 transition-all hover:shadow-slate-300 shadow-slate-200 text-xl">
+                  <h1 className="font-bold">ToDo-List</h1>
+                  <p className="px-3 pt-3 hidden md:contents">ToDo-list is an app with a user name and by typing the username you get access to a "private" todo list. This app was made to get used to using Prisma on a very basic level. There is not much privacy/security within the app, but this was not the aim of the project.</p>  
+                </div>
+              </Link>
+              <p className="px-3 pt-2 text-xl md:hidden">ToDo-list is an app with a username and by typing the username you get access to a "private" todo list. This app was made to get used to using Prisma on a very basic level. There is not much privacy/security within the app, but this was not the aim of the project. The app is formatted to a normal phone as this was the primary device for the app's use case.</p>
             </div>
-          </div>
-          <div className="grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-5">
-            <Link href="./ToDo-List" className="flex justify-center">
-              <div className="border bg-slate-600 md:border-none rounded-lg py-5 md:px-5 w-full hover:shadow-sm hover:scale-105 transition-all hover:shadow-slate-300 shadow-slate-200 text-xl">
-                <h1 className="font-bold">ToDo-List</h1>
-                <p className="px-3 pt-3 hidden md:contents">ToDo-list is an app with a user name and by typing the username you get access to a "private" todo list. This app was made to get used to using Prisma on a very basic level. There is not much privacy/security within the app, but this was not the aim of the project.</p>  
-              </div>
-            </Link>
-            <p className="px-3 pt-2 text-xl md:hidden">ToDo-list is an app with a user name and by typing the username you get access to a "private" todo list. This app was made to get used to using Prisma on a very basic level. There is not much privacy/security within the app, but this was not the aim of the project.</p>
           </div>
         </div>
       </div>

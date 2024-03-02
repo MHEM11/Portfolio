@@ -14,25 +14,10 @@ const TraeningsMakker = () => {
   ]
 
   return (
-    <main className="bg-orange-400 text-white min-h-screen">
+    <main className="bg-orange-400 text-white min-h-screen w-full">
       <TM_header Name="TræningsMakker"/>
-      <div className="flex flex-col justify-center items-center">
-        <div className="flex flex-col w-full items-center pt-12 space-y-7">
-          {links.map(link => <Link href={link.href} key={link.href} className={classNames({
-            "text-white": true,
-            "text-xl":true,
-            "border-2": true,
-            "rounded-2xl": true,
-            "bg-blue-600": true,
-            "w-11/12": true,
-            "items-center": true,
-            "p-auto": true,
-            "text-center": true,
-            "py-4": true,
-          })}>
-            {link.label}
-          </Link>)}
-        </div>  
+      <div className='w-full flex justify-center'>
+        <p className='md:text-9xl md:pt-80 text-5xl pt-80'>IN PROGRESS</p>
       </div>
     </main>
   )
