@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link"
-import React, { useState, useEffect  } from "react"
+import React, { useState } from "react"
 import classNames from "classnames"
 import { usePathname } from "next/navigation"
 import {BiSolidDownArrow as DownArrow, BiSolidLeftArrow as LeftArrow} from "react-icons/bi"
@@ -13,8 +13,10 @@ const Dropdown = () => {
   const links = [
     {label: "Home", href: "/" },
     {label: "Projects", href: "/Projects" },
-    {label: "Contact", href: "/Contact"}
+    {label: "Contact", href: "/Contact" },
+
   ]
+
   return (
     <nav className="flex w-full justify-between fixed bg-slate-700" id="large">
       <button onClick={() => setIsOpen((prev) => !prev)} className=" w-full justify-between flex items-center px-1 text-3xl">
