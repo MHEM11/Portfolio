@@ -1,5 +1,6 @@
 import React from "react"
 import NavAndDD from "./../components/Headers"
+import Link from "next/link"
 
 const Projects = () => {
   return (
@@ -62,6 +63,15 @@ const Projects = () => {
           <h2 className="text-xl py-5">
             Through out my time at Aalborg University I have work on small hobby-projects, so that i could learn more about different programming languages and get better at programming. Some of the projects have been released so that I can use them myself, and other have not been released or are not done yet. Check out the projects released and ready to use bellow. <p className="hidden text-xl md:contents">You can also take a look at my GitHub page, by clicking the github logo in the top right corner</p>
           </h2>
+          <div className="grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-5">
+            <Link href="./ToDo-List" className="flex justify-center">
+              <div className="border bg-slate-600 md:border-none rounded-lg py-5 md:px-5 w-full hover:shadow-sm hover:scale-105 transition-all hover:shadow-slate-300 shadow-slate-200 text-xl">
+                <h1 className="font-bold">ToDo-List</h1>
+                <p className="px-3 pt-3 hidden md:contents">ToDo-list is an app with a user name and by typing the username you get access to a "private" todo list. This app was made to get used to using Prisma on a very basic level. There is not much privacy/security within the app, but this was not the aim of the project.</p>  
+              </div>
+            </Link>
+            <p className="px-3 pt-2 text-xl md:hidden">ToDo-list is an app with a user name and by typing the username you get access to a "private" todo list. This app was made to get used to using Prisma on a very basic level. There is not much privacy/security within the app, but this was not the aim of the project.</p>
+          </div>
         </div>
       </div>
     </main>
