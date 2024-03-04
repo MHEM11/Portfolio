@@ -10,11 +10,11 @@ const Navbar = () => {
   let curPath = usePathname();
 
   const links = [
-    {label: "Home", href: "/" },
+    {label: "About", href: "/" },
     {label: "Projects", href: "/Projects" },
-    {label: "Contact", href: "/Contact"}
+    {label: "FAQ", href: "/FAQ"}
   ]
-
+  
   return (
     <nav className="flex items-center justify-center h-16" id="small">
       <div className="">
