@@ -11,12 +11,26 @@ const CV = () => {
             Get to know me
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 gap-y-7 justify-center w-11/12 pt-5">
+        <div className="grid grid-cols-2 gap-36 gap-y-7 justify-center w-11/12 pt-5">
           <div>
-            <p className="text-2xl pb-3">
+          <p className="text-xl pb-3">
+              What motivate me to do my best?
+            </p>
+            <p className="text-lg ">
+              I have never been a top level student and for that reason school
+              did not really suit me well. Only few subjects got my attention,
+              and in those subjects I preformed and felt motivated to do my best,
+              and get the best grade possible. Same goes for software engineering.
+              To me software engineering is a hobby I, by taking my masters in 
+              computer science, can make my full time job. This possibility motivated
+              me a lot during the early years of school, and to this day still does.
+            </p>
+          </div>
+          <div>
+          <p className="text-xl pb-3">
               Why Computer science?
             </p>
-            <p className="text-xl block">
+            <p className="text-lg block">
               I&apos;m studying a bachelor in computer science (2021-2024) at Aalborg
               university(AAU). I have always had an interest in computers, and
               how they work. Therefore I decided to make my hobby my work. Even
@@ -30,44 +44,30 @@ const CV = () => {
               if you challenge yourself, you will learn from it, even if you fail.
               There is always a lesson to be thought through success and through
               failures. Lessons you would not want to miss.
-            </p>
+            </p>  
           </div>
-          <div>
-            <p className="text-2xl pb-3">
+          <div className="-mt-36">
+          <p className="text-xl pb-3">
               What do I do outside of computer science/work?
             </p>
-            <p className="text-xl ">
+            <p className="text-lg ">
               When I&apos;m not working on a hobby project or a school project, I
               enjoy relaxing with some computer games or watch some series on
               the couch with girlfriend. I&apos;m a very social guy and enjoy
               getting to know somebody better or maybe even get some new friends.
               In my spare time I also enjoy spending time with my friends. I&apos;m
               a huge fan of FC Barcelona and watch nearly every game. Either alone
-              or with some friends of mine. I also like to go to the gym. Not 
+              or with some friends. I also like to go to the gym. Not 
               necessarily to be fit, but I enjoy having to pressure myself to
               the limit to reach my personal goals. For me going to the gym
               strengthens the body and mind.
             </p>
           </div>
-          <div>
-            <p className="text-2xl pb-3">
-              What motivate me to do my best?
-            </p>
-            <p className="text-xl ">
-              I have never been a top level student and for that reason school
-              did not really suit me well. Only few subjects got my attention,
-              and in those subjects I preformed and felt motivated to do my best,
-              and get the best grade possible. Same goes for software engineering.
-              To me software engineering is a hobby I, by taking my masters in 
-              computer science, can make my full time job. This possibility motivated
-              me a lot during the early years of school, and to this day still does.
-            </p>
-          </div>
-          <div className="-mt-20">
-            <p className="text-2xl pb-3">
+          <div className="">
+            <p className="text-xl pb-3">
               How do I manage work-life balance?
             </p>
-            <p className="text-xl ">
+            <p className="text-lg ">
               A healthy work-life balance is something that makes a great employee.
               For me it is important to give time to friends and family, as when
               I am with those people i relax the most and by that preforms the
@@ -77,11 +77,11 @@ const CV = () => {
               balance.
             </p>
           </div>
-          <div className="-mt-20">
-            <p className="text-2xl pb-3">
+          <div className="-mt-16 pb-10">
+            <p className="text-xl pb-3">
               How do I continue learning and staying current in your field?
             </p>
-            <p className="text-xl ">
+            <p className="text-lg ">
               To keep up with a constantly moving industry, or at least try to I
               try to use the new features added to already existing languages, and
               often try to solve Advent Of Code (AOC) exercises in new or newly

@@ -18,23 +18,23 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-center h-16" id="small">
       <div className="">
-      <ul className="flex space-x-12">
-              {links.map(link => <Link href={link.href} key={link.href} className={classNames({
-                "text-white":true, 
-                "text-2xl":true,
-                "rounded-full":true,
-                "px-4": true,
-                "bg-slate-700": link.href !== curPath,
-                "bg-slate-600": link.href === curPath,
-                "hover:bg-slate-800": true,
-                "hover:scale-105": true,
-                "transition-colors ":true
-              })}>
-  {link.label}
-</Link>)}
-            </ul>
+        <ul className="flex space-x-12">
+          {links.map(link => <Link href={link.href} key={link.href} className={classNames({
+            "text-white":true, 
+            "text-2xl":true,
+            "rounded-full":true,
+            "px-4": true,
+            "bg-slate-700": link.href !== curPath,
+            "bg-slate-600": link.href === curPath,
+            "hover:bg-slate-800": true,
+            "hover:scale-105": true,
+            "transition-colors ":true
+            })}>
+            {link.label}
+          </Link>)}
+        </ul>
       </div>
-      <div className="right-2 fixed top-2.5 flex items-center space-x-3" >
+      <div className="right-2 absolute top-2.5 flex items-center space-x-3" >
         <a className="hover:scale-110" href="mailto:jensenmagnushem@gmail.com">
           <IoIosMail size="2.5rem"/>
         </a>
