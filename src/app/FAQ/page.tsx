@@ -26,6 +26,32 @@ const CV = () => {
               with my hobby has motivated me a lot during school and still drives
               me to this day
             </p>
+            <p className="text-xl pb-2 mt-6">
+              What do I do outside of computer science/work?
+            </p>
+            <p className="text-lg pl-2">
+              When I am not working on a hobby project or a school project, I
+              enjoy relaxing with some computer games or watch some series on
+              the couch with my girlfriend. I am a very social guy and enjoy
+              getting to know somebody better or maybe even get some new friends.
+              In my spare time I also enjoy spending time with my friends. I am
+              a huge fan of FC Barcelona and watch nearly every game, either alone
+              or with some friends. I also like to go to the gym, not 
+              necessarily to be fit, but I enjoy having to pressure myself to
+              the limit to reach my personal goals. For me going to the gym
+              strengthens the body and mind.
+            </p>
+            <p className="text-xl pb-2 mt-6">
+              How do I continue learning and staying current in my field of work?
+            </p>
+            <p className="text-lg pl-2">
+              To keep up with a constantly moving industry, or at least try to I
+              try to use the new features added to already existing languages, and
+              often try to solve Advent Of Code (AOC) exercises in new or newly
+              popular languages. The use of ChatGPT or AI in general is also
+              something I have tried to incorporate into my way of working and
+              something that interests me a lot.
+            </p>
           </div>
           <div>
           <p className="text-xl pb-2">
@@ -46,26 +72,7 @@ const CV = () => {
               There is always a lesson to be thought through success and through
               failures. Lessons you would not want to miss.
             </p>  
-          </div>
-          <div className="-mt-28">
-          <p className="text-xl pb-2">
-              What do I do outside of computer science/work?
-            </p>
-            <p className="text-lg pl-2">
-              When I am not working on a hobby project or a school project, I
-              enjoy relaxing with some computer games or watch some series on
-              the couch with my girlfriend. I am a very social guy and enjoy
-              getting to know somebody better or maybe even get some new friends.
-              In my spare time I also enjoy spending time with my friends. I am
-              a huge fan of FC Barcelona and watch nearly every game, either alone
-              or with some friends. I also like to go to the gym, not 
-              necessarily to be fit, but I enjoy having to pressure myself to
-              the limit to reach my personal goals. For me going to the gym
-              strengthens the body and mind.
-            </p>
-          </div>
-          <div className="">
-            <p className="text-xl pb-2">
+            <p className="text-xl pb-2 mt-6">
               How do I manage work-life balance?
             </p>
             <p className="text-lg pl-2">
@@ -75,19 +82,6 @@ const CV = () => {
               best in the working hours. I believe that if your job excites you,
               know how to cope with stress, and when to take a break, you will
               work more efficiently and get a healthy work-life balance.
-            </p>
-          </div>
-          <div className="-mt-7 pb-10">
-            <p className="text-xl pb-2">
-              How do I continue learning and staying current in my field of work?
-            </p>
-            <p className="text-lg pl-2">
-              To keep up with a constantly moving industry, or at least try to I
-              try to use the new features added to already existing languages, and
-              often try to solve Advent Of Code (AOC) exercises in new or newly
-              popular languages. The use of ChatGPT or AI in general is also
-              something I have tried to incorporate into my way of working and
-              something that interests me a lot.
             </p>
           </div>
         </div>
