@@ -13,10 +13,10 @@ const CV = () => {
         </div>
         <div className="grid grid-cols-2 gap-36 gap-y-7 justify-center w-11/12 pt-5">
           <div>
-          <p className="text-xl pb-3">
+          <p className="text-xl pb-2">
               What motivate me to do my best?
             </p>
-            <p className="text-lg ">
+            <p className="text-lg pl-2">
               I have never been a top level student and for that reason school
               did not really suit me well. Only few subjects got my attention,
               and in those subjects I preformed and felt motivated to do my best,
@@ -27,10 +27,10 @@ const CV = () => {
             </p>
           </div>
           <div>
-          <p className="text-xl pb-3">
+          <p className="text-xl pb-2">
               Why Computer science?
             </p>
-            <p className="text-lg block">
+            <p className="text-lg pl-2">
               I&apos;m studying a bachelor in computer science (2021-2024) at Aalborg
               university(AAU). I have always had an interest in computers, and
               how they work. Therefore I decided to make my hobby my work. Even
@@ -46,11 +46,11 @@ const CV = () => {
               failures. Lessons you would not want to miss.
             </p>  
           </div>
-          <div className="-mt-36">
-          <p className="text-xl pb-3">
+          <div className="-mt-28">
+          <p className="text-xl pb-2">
               What do I do outside of computer science/work?
             </p>
-            <p className="text-lg ">
+            <p className="text-lg pl-2">
               When I&apos;m not working on a hobby project or a school project, I
               enjoy relaxing with some computer games or watch some series on
               the couch with girlfriend. I&apos;m a very social guy and enjoy
@@ -64,24 +64,24 @@ const CV = () => {
             </p>
           </div>
           <div className="">
-            <p className="text-xl pb-3">
+            <p className="text-xl pb-2">
               How do I manage work-life balance?
             </p>
-            <p className="text-lg ">
+            <p className="text-lg pl-2">
               A healthy work-life balance is something that makes a great employee.
               For me it is important to give time to friends and family, as when
-              I am with those people i relax the most and by that preforms the
+              I am with those people I relax the most and by that preforms the
               best in the working hours. I believe that if your job excites you
               and you know how to cope with stress, and when you need to take a
               break, you will work more efficiently and get a healthy work-life
               balance.
             </p>
           </div>
-          <div className="-mt-16 pb-10">
-            <p className="text-xl pb-3">
+          <div className="-mt-8 pb-10">
+            <p className="text-xl pb-2">
               How do I continue learning and staying current in your field?
             </p>
-            <p className="text-lg ">
+            <p className="text-lg pl-2">
               To keep up with a constantly moving industry, or at least try to I
               try to use the new features added to already existing languages, and
               often try to solve Advent Of Code (AOC) exercises in new or newly

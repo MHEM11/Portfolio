@@ -8,7 +8,7 @@ const Projects = () => {
     <main className="bg-gradient-to-b from-slate-700 to-slate-500 text-white min-h-screen">
       <NavAndDD />
       <div className="flex justify-center items-center pt-10 md:pt-0 pb-10">
-        <div className="flex flex-col justify-center text-center w-11/12 md:w-3/5">
+        <div className="flex flex-col justify-center text-center w-11/12 md:w-4/5">
           <h2 className="text-3xl">
             School Projects
           </h2>
