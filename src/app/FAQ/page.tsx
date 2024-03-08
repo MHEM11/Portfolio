@@ -77,7 +77,7 @@ const CV = () => {
               work more efficiently and get a healthy work-life balance.
             </p>
           </div>
-          <div className="-mt-12 pb-10">
+          <div className="-mt-7 pb-10">
             <p className="text-xl pb-2">
               How do I continue learning and staying current in my field of work?
             </p>
