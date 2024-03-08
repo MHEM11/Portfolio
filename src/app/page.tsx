@@ -10,9 +10,9 @@ export default function Home() {
         <div className="text-center w-11/12 md:w-4/5">
           <h2 className="text-3xl items-center font-bold">Hi there!</h2>
           <img src="./PB.jpg" alt="ME" className="my-5 h-60 w-60 rounded-full m-auto"></img>
-          <h2 className="text-3xl items-center font-bold">I&apos;m Magnus Hem </h2>
+          <h2 className="text-3xl items-center font-bold">I am Magnus Hem </h2>
           <div className="my-10  items-center justify-center">
-            <p className="text-xl my-10">I am a 23 year old Computer Science student at Aalborg University (AAU), currently on the hunt for a job while taking the last semester of my bachelor, and for my up coming semesters on my masters in Computer Science. Welcome to my portfolio! Take a look at som of my projects that I have made on my own or with my group, while studying at Aalborg university(AAU) on the projects page, or if you to know me on a personal level go to the FAQ page and take a look. On this page you can see my work experience, education and skills and competences. I do have more skills and competences that I have acquired during the courses I have taken while studying, but these are some of my main and best ones. If you have any questions, feel free to contact me.</p>
+            <p className="text-xl my-10">I am a 23 year old Computer Science student at Aalborg University (AAU), currently on the hunt for a job while taking the last semester of my bachelor, and for my up coming semesters on my masters in Computer Science. Welcome to my portfolio! Here you can find some of the projects I have made, some of which were made in a group at Aalborg University (AAU), or get to know me on the FAQ page. On the current page you can see my work experience, education, skills and competences, however, this does not necessarily cover all of the knowledge an competences I have acquired while studying. If you have any questions, feel free to contact me.</p>
           </div>
         </div>
         <div className="flex flex-col items-center mb-10 w-11/12 md:w-4/5">
@@ -21,7 +21,7 @@ export default function Home() {
           </h2>
           <ul className="list-disc list-inside items-center">
             <li className="text-xl items-center">
-              Customer and sales service assistant, specialising in wired- and wireless broadband, at Responz (before Jysk Telemarketing) (October 2019 - February 2022)
+            Responz (before Jysk Telemarketing) (October 2019 - February 2022) - Customer and sales service assistant, specialising in wired- and wireless broadband
             </li>
             <li className="text-lg px-10">
               My key responsibilities were customer service and sales at first, after 6 months I was moved to the broadband support team where

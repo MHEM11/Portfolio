@@ -19,11 +19,12 @@ const CV = () => {
             <p className="text-lg pl-2">
               I have never been a top level student and for that reason school
               did not really suit me well. Only few subjects got my attention,
-              and in those subjects I preformed and felt motivated to do my best,
-              and get the best grade possible. Same goes for software engineering.
-              To me software engineering is a hobby I, by taking my masters in 
-              computer science, can make my full time job. This possibility motivated
-              me a lot during the early years of school, and to this day still does.
+              and in those subjects I performed and felt motivated to do my best,
+              and get the best grade possible. The same goes for software engineering.
+              To me software engineering is a hobby I, by taking my Masters, can
+              make computer science my full time job. The possibility to work
+              with my hobby has motivated me a lot during school and still drives
+              me to this day
             </p>
           </div>
           <div>
@@ -31,9 +32,9 @@ const CV = () => {
               Why Computer science?
             </p>
             <p className="text-lg pl-2">
-              I&apos;m studying a bachelor in computer science (2021-2024) at Aalborg
-              university(AAU). I have always had an interest in computers, and
-              how they work. Therefore I decided to make my hobby my work. Even
+              I am studying a bachelor in computer science (2021-2024) at Aalborg
+              University (AAU). I have always had an interest in computers, and
+              how they work. Therefore I decided to make my hobby, my work. Even
               though the basics of computer science was my hobby before I started,
               I have still learned a lot about software engineering and even more
               about what the processes going into software engineering really is.
@@ -51,13 +52,13 @@ const CV = () => {
               What do I do outside of computer science/work?
             </p>
             <p className="text-lg pl-2">
-              When I&apos;m not working on a hobby project or a school project, I
+              When I am not working on a hobby project or a school project, I
               enjoy relaxing with some computer games or watch some series on
-              the couch with girlfriend. I&apos;m a very social guy and enjoy
+              the couch with my girlfriend. I am a very social guy and enjoy
               getting to know somebody better or maybe even get some new friends.
-              In my spare time I also enjoy spending time with my friends. I&apos;m
-              a huge fan of FC Barcelona and watch nearly every game. Either alone
-              or with some friends. I also like to go to the gym. Not 
+              In my spare time I also enjoy spending time with my friends. I am
+              a huge fan of FC Barcelona and watch nearly every game, either alone
+              or with some friends. I also like to go to the gym, not 
               necessarily to be fit, but I enjoy having to pressure myself to
               the limit to reach my personal goals. For me going to the gym
               strengthens the body and mind.
@@ -70,16 +71,15 @@ const CV = () => {
             <p className="text-lg pl-2">
               A healthy work-life balance is something that makes a great employee.
               For me it is important to give time to friends and family, as when
-              I am with those people I relax the most and by that preforms the
-              best in the working hours. I believe that if your job excites you
-              and you know how to cope with stress, and when you need to take a
-              break, you will work more efficiently and get a healthy work-life
-              balance.
+              I am with those people I relax the most and by that performs the
+              best in the working hours. I believe that if your job excites you,
+              know how to cope with stress, and when to take a break, you will
+              work more efficiently and get a healthy work-life balance.
             </p>
           </div>
-          <div className="-mt-8 pb-10">
+          <div className="-mt-12 pb-10">
             <p className="text-xl pb-2">
-              How do I continue learning and staying current in your field?
+              How do I continue learning and staying current in my field of work?
             </p>
             <p className="text-lg pl-2">
               To keep up with a constantly moving industry, or at least try to I
