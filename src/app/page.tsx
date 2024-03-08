@@ -54,6 +54,16 @@ export default function Home() {
             </li>
           </ul>
         </div>
+        <div className="flex flex-col items-center my-10 w-11/12">
+          <h2 className="text-2xl font-bold">
+            Work Experience
+          </h2>
+          <ul className="list-disc list-inside">
+            <li className="">
+
+            </li>
+          </ul>
+        </div>
       </div>
     </main>
   )
