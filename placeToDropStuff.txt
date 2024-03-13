@@ -1,0 +1,13 @@
+          <h2 className="text-2xl font-bold">
+            Work Experience
+          </h2>
+          <ul className=" flex items-center list-disc list-inside">
+            <li className="text-xl">
+              Customer and sales service assistant, specialising in wired- and wireless broadband, at Responz (before Jysk Telemarketing) (October 2019 - February 2022)
+              <ul className="list-disc list-inside w-10/12">
+                <li className="text-lg">
+                  My key responsibilities were customer service and sales at first, after 6 months I was moved to the broadband support team where the main responsibility was to provide <p className="inline pl-4">support for existing customers who experienced problems with their broadband connection. </p>
+                </li>
+              </ul>
+            </li>
+          </ul>

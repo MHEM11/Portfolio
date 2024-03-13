@@ -8,9 +8,9 @@ const Projects = () => {
     <main className="bg-gradient-to-b from-slate-700 to-slate-500 text-white min-h-screen">
       <NavAndDD />
       <div className="flex justify-center items-center pt-10 md:pt-0 pb-10">
-        <div className="flex flex-col justify-center text-center w-11/12 md:w-3/5">
+        <div className="flex flex-col justify-center text-center w-11/12 md:w-4/5">
           <h2 className="text-3xl">
-            School Projects
+            University Projects
           </h2>
           <div className="flex flex-col justify-center items-center">
             <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
@@ -33,11 +33,11 @@ const Projects = () => {
             
             <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
               <li className="text-2xl">
-              Sales management system for Dialægt (3rd Semester, Sep. 2022 - Dec. 2022)
+              Sales Management System for Dialægt (3rd Semester, Sep. 2022 - Dec. 2022)
               </li>
             </ul>
             <p className="w-10/12  text-xl">
-              In this project I learned how to work with object oriented programming and complex systems. I got experience with developing more advance programs. I also learned to work with professional partners as this project was in collaboration with Dialægt.
+              In this project I learned how to work with object oriented programming and complex systems. I got experience with developing more advance programs. I also learned to work with professional partners as this project was in collaboration with Dialægt (Poster & Frame)
             </p>
             
             <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
@@ -55,7 +55,7 @@ const Projects = () => {
               </li>
             </ul>
             <p className="w-10/12 mb-10 text-xl">
-              In this project I learned how to work with a machine and how it learns. I got to test and experiment with some of the features that effects the machines ability to learn and got to work with different classification algorithms. 
+            In this project I learned how to work with machine learning and evaluation of agents. I got to test and experiment with some of the features that effects the agents ability to learn and worked with different classification algorithms. 
             </p>
           </div>
           <div className="flex flex-col justify-center items-center">
@@ -63,7 +63,7 @@ const Projects = () => {
               Hobby Projects
             </h2>
             <h2 className="text-xl py-5">
-              Through out my time at Aalborg University I have work on small hobby-projects, so that I could learn more about different programming languages and get better at programming. Some of the projects have been released so that I can use them myself, and other have not been released or are not done yet. Such projects are available on GitHub Check out the projects released and ready to use bellow. <p className="hidden text-xl md:contents">You can also take a look at my GitHub page, by clicking the github logo in the top right corner</p>
+              Through out my time at Aalborg University I have work on small hobby-projects, so that I could learn more about different programming languages and get better at programming. Some of the projects have been released so that I can use them myself, and others have not been released or are not done yet. Such projects are available on GitHub. Check out the projects released and ready to use bellow. <p className="hidden text-xl md:contents">You can also take a look at my GitHub page, by clicking the GitHub logo in the top right corner</p>
             </h2>
             <div className="grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-5">
               <Link href="./TraeningsMakker" className="flex justify-center">

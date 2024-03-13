@@ -11,9 +11,9 @@ const Dropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
-    {label: "Home", href: "/" },
+    {label: "About", href: "/" },
     {label: "Projects", href: "/Projects" },
-    {label: "Contact", href: "/Contact" },
+    {label: "FAQ", href: "/FAQ" },
 
   ]
 

@@ -1,3 +1,6 @@
 Change contact to be a CV form of cite. Then change Home to be and about page.
 Make AOC in different languages to show that i can program in different
 languages
+
+Why are you looking for a job? 
+Why should we hire you? 
