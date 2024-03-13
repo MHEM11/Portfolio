@@ -19,13 +19,15 @@ export default function Home() {
           <h2 className="text-2xl font-bold">
             Work Experience
           </h2>
-          <ul className="list-disc list-inside items-center">
+          <ul className="list-disc items-center">
             <li className="text-xl items-center">
             Responz (before Jysk Telemarketing) (October 2019 - February 2022) - Customer and sales service assistant, specialising in wired- and wireless broadband
-            </li>
-            <li className="text-lg px-10">
-              My key responsibilities were customer service and sales at first, after 6 months I was moved to the broadband support team where
-              the main responsibility was to provide support for<p className="pl-4"> existing customers who experienced problems with their broadband connection.</p>
+            <ul className="list-disc mx-4 mr-16">
+              <li className="text-lg ">
+                My key responsibilities were customer service and sales at first, after 6 months I was moved to the broadband support team where
+                the main responsibility was to provide support for existing customers who experienced problems with their broadband connection.
+              </li>
+            </ul>
             </li>
           </ul>
         </div>
@@ -34,12 +36,12 @@ export default function Home() {
             <h2 className="text-2xl font-bold">
               Education
             </h2>
-            <ul className="list-disc list-inside space-y-1">
+            <ul className="list-disc space-y-1">
               <li className="text-xl">
-              Bachelor in Computer Science, Aalborg <p className="pl-4">University (2021-2024)</p>
+              Bachelor in Computer Science, Aalborg University (2021-2024)
               </li>
               <li className="text-xl">
-              Master in Computer Science, Aalborg <p className="pl-4">University (2024-2026)</p>
+              Master in Computer Science, Aalborg University (2024-2026)
               </li>
             </ul>
           </div>
@@ -47,21 +49,21 @@ export default function Home() {
             <h2 className="text-2xl font-bold">
               Skills and Competences
             </h2>
-            <ul className="list-disc list-inside space-y-1">
+            <ul className="list-disc space-y-1">
               <li className="text-xl">
-                Experience with the programming languages Java,<p className="pl-4"> C#, JavaScript, C, HTML, Python and CSS</p>
+                Experience with the programming languages Java, C#, JavaScript, C, HTML, Python and CSS
               </li>
               <li className="text-xl">
                 Basic knowledge about databases and SQL
               </li>
               <li className="text-xl">
-                Experiences with software engineering in cooperation<p className="pl-4"> with a team</p>
+                Experiences with software engineering in cooperation with a team
               </li>
               <li className="text-xl">
-                The ability to work in teams and communicate <p className="pl-4">efficiently with colleagues and customers</p>
+                The ability to work in teams and communicate efficiently with colleagues and customers
               </li>
               <li className="text-xl">
-                Analytical way of thinking and problem-solving <p className="pl-4">abilities</p>
+                Analytical way of thinking and problem-solving abilities
               </li>
             </ul>
           </div>
