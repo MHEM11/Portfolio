@@ -21,8 +21,8 @@ const CV = () => {
               did not really suit me well. Only few subjects got my attention,
               and in those subjects I performed and felt motivated to do my best,
               and get the best grade possible. The same goes for software engineering.
-              To me software engineering is a hobby I, by taking my Masters, can
-              make computer science my full time job. The possibility to work
+              To me software engineering is a hobby- A hobby I, by taking my Masters, can
+              make my full time job. The possibility to work
               with my hobby has motivated me a lot during school and still drives
               me to this day
             </p>

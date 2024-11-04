@@ -12,7 +12,7 @@ export default function Home() {
           <img src="./PB.jpg" alt="ME" className="my-5 h-60 w-60 rounded-full m-auto"></img>
           <h2 className="text-3xl items-center font-bold">I am Magnus Hem </h2>
           <div className="my-10  items-center justify-center">
-            <p className="text-xl my-10">I am a 23 year old Computer Science student at Aalborg University (AAU), currently on the hunt for a job while taking the last semester of my bachelor, and for my up coming semesters on my masters in Computer Science. Welcome to my portfolio! Here you can find some of the projects I have made, some of which were made in a group at Aalborg University (AAU), or get to know me on the FAQ page. On the current page you can see my work experience, education, skills and competences, however, this does not necessarily cover all of the knowledge an competences I have acquired while studying. If you have any questions, feel free to contact me.</p>
+            <p className="text-xl my-10">I am a 24 year old bachelor in Computer Science studying my masters at Aalborg University (AAU), currently on the hunt for a part time job. Welcome to my portfolio! Here you will find some of the projects I have made, some of which were made in a group at Aalborg University (AAU), and some made in my own spear time or you can get to know me on the FAQ page. On the current page you can see my work experience, education, skills and competences, however, this does not necessarily cover all of the knowledge an competences I have acquired while studying. If you have any questions, feel free to contact me.</p>
           </div>
         </div>
         <div className="flex flex-col items-center mb-10 w-11/12 md:w-4/5">
