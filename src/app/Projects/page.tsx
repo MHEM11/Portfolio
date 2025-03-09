@@ -101,7 +101,6 @@ const projects = [
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
-
   const filteredProjects = projects.filter(
       project => activeCategory === "All" || project.category === activeCategory
   );
@@ -148,6 +147,7 @@ const Projects = () => {
                     {category}
                   </button>
               ))}
+
             </div>
           </div>
 

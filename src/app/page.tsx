@@ -15,6 +15,7 @@ import {
 
 export default function Home() {
   return (
+
       <main className="bg-gradient-to-br from-[#2A3B4C] to-[#1A2B3C] min-h-screen text-white">
         {/* Navigation will be imported from your existing components */}
 
@@ -312,6 +313,7 @@ export default function Home() {
               </a>
             </div>
             <p>© {new Date().getFullYear()} Magnus Hem Jensen. All rights reserved.</p>
+
           </div>
         </footer>
       </main>
