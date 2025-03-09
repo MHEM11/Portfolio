@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function FAQ() {
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const toggleAccordion = (index) => {
+  const toggleAccordion = (index:any) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
