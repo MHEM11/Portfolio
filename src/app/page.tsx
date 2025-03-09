@@ -29,7 +29,7 @@ export default function Home() {
                   transition={{ duration: 0.5 }}
               >
                 <h1 className="text-4xl md:text-6xl font-bold">
-                  Hi, I'm <span className="text-[#3CAEA3]">Magnus Hem</span>
+                  Hi, I&apos;m <span className="text-[#3CAEA3]">Magnus Hem</span>
                 </h1>
                 <h2 className="text-2xl md:text-3xl mt-4 text-gray-300">
                   Computer Science Graduate & Developer
@@ -43,8 +43,8 @@ export default function Home() {
                   transition={{ delay: 0.1, duration: 0.3 }}
 
               >
-                I'm a passionate software developer with a Bachelor's in Computer Science from Aalborg University,
-                currently pursuing my Master's. I build modern web applications and enjoy turning complex problems into elegant solutions.
+                I&apos;m a passionate software developer with a Bachelor&apos;s in Computer Science from Aalborg University,
+                currently pursuing my Master&apos;s. I build modern web applications and enjoy turning complex problems into elegant solutions.
               </motion.p>
 
               <motion.div
@@ -188,12 +188,12 @@ export default function Home() {
                   About <span className="text-[#3CAEA3]">Me</span>
                 </h2>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  I'm a Computer Science graduate from Aalborg University with a passion for building software that solves real problems.
+                  I&apos;m a Computer Science graduate from Aalborg University with a passion for building software that solves real problems.
                   My journey in tech began with a fascination for computers, which turned into a hobby, and eventually became my career path.
                 </p>
                 <p className="text-gray-300 leading-relaxed mb-6">
                   I believe in challenging myself to grow, embracing teamwork, and continuously learning new technologies.
-                  When I'm not coding, I enjoy watching FC Barcelona matches, gaming, and spending time with friends and family.
+                  When I&apos;m not coding, I enjoy watching FC Barcelona matches, gaming, and spending time with friends and family.
                 </p>
                 <Link href="/FAQ" className="text-[#3CAEA3] font-medium hover:underline">
                   Learn more about me →
@@ -227,7 +227,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-10">
             <div className="md:w-1/2">
               <p className="text-gray-300 leading-relaxed mb-8">
-                I'm currently looking for new opportunities where I can apply my skills and continue to grow as a developer.
+                I&apos;m currently looking for new opportunities where I can apply my skills and continue to grow as a developer.
                 Whether you have a question, want to discuss a potential project, or just want to say hello, feel free to reach out!
               </p>
               <div className="flex flex-col space-y-4">

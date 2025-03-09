@@ -126,7 +126,7 @@ const Projects = () => {
           >
             <h1 className="text-4xl font-bold mb-6">My Projects</h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              A collection of projects I've worked on throughout my academic and personal journey.
+              A collection of projects I&apos;ve worked on throughout my academic and personal journey.
               Each project represents different challenges and learning experiences.
             </p>
           </motion.div>

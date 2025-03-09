@@ -60,7 +60,7 @@ export default function FAQ() {
               Frequently <span className="text-[#3CAEA3]">Asked Questions</span>
             </h1>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              Here you'll find answers to common questions about my background, skills, and approach to development.
+              Here you&apos;ll find answers to common questions about my background, skills, and approach to development.
               These insights will help you understand what I can bring to your team.
             </p>
           </motion.div>
@@ -105,8 +105,8 @@ export default function FAQ() {
               Have More <span className="text-[#3CAEA3]">Questions?</span>
             </h2>
             <p className="text-gray-300 mb-8">
-              If you didn't find the information you're looking for, feel free to reach out directly.
-              I'm always happy to discuss potential opportunities or answer any other questions you might have.
+              If you didn&apos;t find the information you&apos;re looking for, feel free to reach out directly.
+              I&apos;m always happy to discuss potential opportunities or answer any other questions you might have.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
