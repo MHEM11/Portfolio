@@ -1,91 +1,238 @@
-"use client"
-import React from "react"
-import NavAndDD from "./../components/Headers"
-import Link from "next/link"
+"use client";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { FaGithub, FaExternalLinkAlt, FaHome } from "react-icons/fa";
+
+// Project categories
+const categories = ["All", "University", "Personal"];
+
+// Project data
+const projects = [
+  {
+    title: "Intelligent Waste Management",
+    description: "A system designed to optimize waste collection using sensors and data analysis, reducing collection costs and environmental impact.",
+    image: "/project-waste.jpg", // Add these images to your public folder
+    category: "University",
+    technologies: ["Java", "Problem-Based Learning"],
+    link: null,
+    github: null,
+    period: "Sep. 2021 - Dec. 2021",
+    featured: true
+  },
+  {
+    title: "Visualization of Algorithms and Data Structures",
+    description: "Interactive visualization tools for common algorithms and data structures to aid in computer science education and understanding.",
+    image: "/project-algo.jpg",
+    category: "University",
+    technologies: ["JavaScript", "HTML Canvas", "Algorithms"],
+    link: null,
+    github: null,
+    period: "Jan. 2022 - May 2022",
+    featured: true
+  },
+  {
+    title: "Sales Management System for Dialægt",
+    description: "A comprehensive sales management solution developed for Dialægt (Poster & Frame) to streamline their business operations.",
+    image: "/project-sales.jpg",
+    category: "University",
+    technologies: ["OOP", "Database Design", "UI/UX"],
+    link: null,
+    github: null,
+    period: "Sep. 2022 - Dec. 2022",
+    featured: true
+  },
+  {
+    title: "Arduino Concurrent Extension",
+    description: "An extension of the Arduino programming language to support concurrent programming concepts, making it easier to develop complex systems.",
+    image: "/project-arduino.jpg",
+    category: "University",
+    technologies: ["Language Design", "Arduino", "Concurrency"],
+    link: null,
+    github: null,
+    period: "Jan. 2023 - May 2023",
+    featured: true
+  },
+  {
+    title: "Sentiment Analysis and Preprocessing",
+    description: "Research on the effects of different preprocessing techniques on sentiment analysis accuracy using machine learning algorithms.",
+    image: "/project-sentiment.jpg",
+    category: "University",
+    technologies: ["Machine Learning", "Python", "NLP"],
+    link: null,
+    github: null,
+    period: "Sep. 2023 - Dec 2023",
+    featured: true
+  },
+  {
+    title: "TræningsMakker",
+    description: "A fitness companion app that helps users track their workout progress and remember their previous weights for exercises.",
+    image: "/project-tm.jpg",
+    category: "Personal",
+    technologies: ["React", "Next.js", "Tailwind CSS"],
+    link: "/TraeningsMakker",
+    github: null,
+    period: "Ongoing",
+    featured: true
+  },
+  {
+    title: "ToDo List",
+    description: "A simple but effective todo application with basic user authentication and persistent storage using Prisma.",
+    image: "/project-todo.jpg",
+    category: "Personal",
+    technologies: ["React", "Prisma", "Next.js"],
+    link: "/ToDo-List",
+    github: null,
+    period: "Completed",
+    featured: true
+  },
+  {
+    title: "Java - Advent of Code 2020",
+    description: "Solutions to the Advent of Code 2020 challenges implemented in Java, showcasing problem-solving skills and algorithm knowledge.",
+    image: "/project-aoc.jpg",
+    category: "Personal",
+    technologies: ["Java", "Algorithms", "Problem Solving"],
+    link: null,
+    github: "https://github.com/MHEM11/JavaAOC2020",
+    period: "Dec. 2020",
+    featured: true
+  }
+];
 
 const Projects = () => {
-  return (
-    <main className="bg-gradient-to-b from-slate-700 to-slate-500 text-white min-h-screen">
-      <NavAndDD />
-      <div className="flex justify-center items-center pt-10 md:pt-0 pb-10">
-        <div className="flex flex-col justify-center text-center w-11/12 md:w-4/5">
-          <h2 className="text-3xl">
-            School Projects
-          </h2>
-          <div className="flex flex-col justify-center items-center">
-            <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
-              <li className="text-2xl">
-              Intelligent Wastemangment (1st Semester, Sep. 2021 - Dec. 2021)
-              </li>
-            </ul>
-            <p className="w-10/12 text-xl">
-              In this project I learned the basics of working in a team and learned how to work with problem based learning. I also learned the basics of programming.
-            </p>
+  const [activeCategory, setActiveCategory] = useState("All");
 
-            <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
-              <li className="text-2xl">
-                Visualization of Algorithms and Data Structures (2nd Semester, Jan. 2022 - May 2022)
-              </li>
-            </ul>
-            <p className="w-10/12 text-xl">
-              In this project I learned to work with algorithms and compose effective code. I also started learning different programming languages and get a better understanding of programming.
+  const filteredProjects = projects.filter(
+      project => activeCategory === "All" || project.category === activeCategory
+  );
+
+  return (
+      <main className="bg-gradient-to-br from-[#2A3B4C] to-[#1A2B3C] text-white min-h-screen">
+        {/* Fixed Home Button */}
+        <div className="fixed top-6 left-6 z-50">
+          <Link
+              href="/"
+              className="flex items-center gap-2 px-4 py-2 bg-[#2A3B4C] rounded-lg text-white border border-[#3CAEA3] hover:bg-[#3CAEA3] transition-all duration-300 shadow-lg group"
+          >
+            <FaHome className="text-[#3CAEA3] group-hover:text-white" />
+            <span className="font-medium">Home</span>
+          </Link>
+        </div>
+        <div className="max-w-6xl mx-auto px-6 py-16">
+          <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="text-center mb-16"
+          >
+            <h1 className="text-4xl font-bold mb-6">My Projects</h1>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              A collection of projects I've worked on throughout my academic and personal journey.
+              Each project represents different challenges and learning experiences.
             </p>
-            
-            <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
-              <li className="text-2xl">
-              Sales management system for Dialægt (3rd Semester, Sep. 2022 - Dec. 2022)
-              </li>
-            </ul>
-            <p className="w-10/12  text-xl">
-              In this project I learned how to work with object oriented programming and complex systems. I got experience with developing more advance programs. I also learned to work with professional partners as this project was in collaboration with Dialægt.
-            </p>
-            
-            <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
-              <li className="text-2xl">
-              Arduino Concurrent Extension (4th Semester, Jan. 2023 - May 2023)
-              </li>
-            </ul>
-            <p className="w-10/12 text-xl">
-              In this project I learned how to work design, define and implement a programming language. I got to know how a computer works on a deeper level and learned how to work with a Arduino.
-            </p>
-            
-            <ul className="list-disc list-inside items-center mt-5 text-center justify-center">
-              <li className="text-2xl">
-              Sentiment Analysis and Effects of Preprocessing (5th Semester, Sep. 2023 - Dec 2023)
-              </li>
-            </ul>
-            <p className="w-10/12 mb-10 text-xl">
-              In this project I learned how to work with a machine and how it learns. I got to test and experiment with some of the features that effects the machines ability to learn and got to work with different classification algorithms. 
-            </p>
-          </div>
-          <div className="flex flex-col justify-center items-center">
-            <h2 className="text-3xl">
-              Hobby Projects
-            </h2>
-            <h2 className="text-xl py-5">
-              Through out my time at Aalborg University I have work on small hobby-projects, so that I could learn more about different programming languages and get better at programming. Some of the projects have been released so that I can use them myself, and other have not been released or are not done yet. Such projects are available on GitHub Check out the projects released and ready to use bellow. <p className="hidden text-xl md:contents">You can also take a look at my GitHub page, by clicking the github logo in the top right corner</p>
-            </h2>
-            <div className="grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-5">
-              <Link href="./TraeningsMakker" className="flex justify-center">
-                <div className="border bg-slate-600 md:border-none rounded-lg py-5 md:px-5 w-full hover:shadow-sm hover:scale-105 transition-all hover:shadow-slate-300 shadow-slate-200 text-xl">
-                  <h1 className="font-bold">Træningsmakker - TM</h1>
-                  <p className="px-3 pt-3 hidden md:contents">TM is helpful for those who have a hard time remembering how much weight the lifted last time for a given exercise. With TM one can keep track of how much weight to use on each exercise</p>  
-                </div>
-              </Link>
-              <p className="px-3 pt-2 text-xl md:hidden">TM is helpful for those who have a hard time remembering how much weight the lifted last time for a given exercise. With TM one can keep track of how much weight to use on each exercise</p>
-              <Link href="./ToDo-List" className="flex justify-center">
-                <div className="border bg-slate-600 md:border-none rounded-lg py-5 md:px-5 w-full hover:shadow-sm hover:scale-105 transition-all hover:shadow-slate-300 shadow-slate-200 text-xl">
-                  <h1 className="font-bold">ToDo-List</h1>
-                  <p className="px-3 pt-3 hidden md:contents">ToDo-list is an app with a user name and by typing the username you get access to a &quot;private&quot; todo list. This app was made to get used to using Prisma on a very basic level. There is not much privacy/security within the app, but this was not the aim of the project.</p>  
-                </div>
-              </Link>
-              <p className="px-3 pt-2 text-xl md:hidden">ToDo-list is an app with a username and by typing the username you get access to a &quot;private&quot; todo list. This app was made to get used to using Prisma on a very basic level. There is not much privacy/security within the app, but this was not the aim of the project. The app is formatted to a normal phone as this was the primary device for the app&apos;s use case.</p>
+          </motion.div>
+
+          {/* Category Filter */}
+          <div className="flex justify-center mb-12">
+            <div className="flex space-x-2 p-1 bg-[#2A3B4C] rounded-lg">
+              {categories.map((category, index) => (
+                  <button
+                      key={index}
+                      onClick={() => setActiveCategory(category)}
+                      className={`px-6 py-2 rounded-md transition-all duration-300 ${
+                          activeCategory === category
+                              ? "bg-[#3CAEA3] text-white"
+                              : "text-gray-300 hover:text-white"
+                      }`}
+                  >
+                    {category}
+                  </button>
+              ))}
             </div>
           </div>
-        </div>
-      </div>
-    </main>
-  )
-}
 
-export default Projects
+          {/* Projects Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {filteredProjects.map((project, index) => (
+                <motion.div
+                    key={index}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: index * 0.1, duration: 0.5 }}
+                    className="bg-[#2A3B4C] rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300"
+                    whileHover={{ y: -5 }}
+                >
+                  <div className="h-48 bg-[#1A2B3C] flex items-center justify-center">
+                    <span className="text-4xl">{project.title[0]}</span>
+                  </div>
+
+                  <div className="p-6">
+                    <div className="flex justify-between items-start mb-4">
+                      <h3 className="text-xl font-bold">{project.title}</h3>
+                      <span className="text-xs bg-[#3CAEA3] px-2 py-1 rounded-full">
+                    {project.category}
+                  </span>
+                    </div>
+
+                    <p className="text-gray-300 mb-4 text-sm h-20 overflow-hidden">
+                      {project.description}
+                    </p>
+
+                    <div className="mb-4">
+                      <h4 className="text-sm text-gray-400 mb-2">Technologies</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {project.technologies.map((tech, techIndex) => (
+                            <span
+                                key={techIndex}
+                                className="text-xs px-2 py-1 bg-[#1A2B3C] rounded-full"
+                            >
+                        {tech}
+                      </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="flex justify-between items-center mt-6">
+                      <span className="text-xs text-gray-400">{project.period}</span>
+                      <div className="flex space-x-3">
+                        {project.github && (
+                            <a
+                                href={project.github}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-gray-300 hover:text-[#3CAEA3] transition-colors"
+                            >
+                              <FaGithub size={20} />
+                            </a>
+                        )}
+                        {project.link && (
+                            <Link
+                                href={project.link}
+                                className="text-gray-300 hover:text-[#3CAEA3] transition-colors"
+                            >
+                              <FaExternalLinkAlt size={18} />
+                            </Link>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
+            ))}
+          </div>
+
+          {/* Call to Action */}
+          <div className="text-center mt-20">
+            <h2 className="text-2xl font-bold mb-6">Interested in collaborating?</h2>
+            <Link
+                href="mailto:jensenmagnushem@gmail.com"
+                className="inline-block px-8 py-3 bg-[#3CAEA3] text-white rounded-lg font-medium hover:bg-[#2D9D92] transition duration-300"
+            >
+              Get In Touch
+            </Link>
+          </div>
+        </div>
+      </main>
+  );
+};
+
+export default Projects;

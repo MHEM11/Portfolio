@@ -7,7 +7,7 @@ const inter = Roboto({
 
 export const metadata: Metadata = {
   title: "Magnus Hem - portfolio",
-  description: "Magnus Hem's portfolio, made for Magnus Hem and made by Magnus Hem Jensen",
+  description: "Magnus Hem's portfolio, made for Magnus Hem and made by Magnus Hem",
 }
 
 export default function RootLayout({
