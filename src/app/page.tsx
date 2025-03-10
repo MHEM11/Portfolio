@@ -225,7 +225,7 @@ export default function Home() {
             Get <span className="text-[#3CAEA3]">In Touch</span>
           </h2>
           <div className="flex flex-col md:flex-row gap-10">
-            <div className="md:w-1/2">
+            <div className="">
               <p className="text-gray-300 leading-relaxed mb-8">
                 I&apos;m currently looking for new opportunities where I can apply my skills and continue to grow as a developer.
                 Whether you have a question, want to discuss a potential project, or just want to say hello, feel free to reach out!
@@ -257,44 +257,7 @@ export default function Home() {
                   <span>GitHub</span>
                 </a>
               </div>
-            </div>
-            <div className="md:w-1/2">
-              <form className="space-y-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">Name</label>
-                  <input
-                      type="text"
-                      id="name"
-                      className="w-full px-4 py-3 bg-[#2A3B4C] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3CAEA3]"
-                      placeholder="Your name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">Email</label>
-                  <input
-                      type="email"
-                      id="email"
-                      className="w-full px-4 py-3 bg-[#2A3B4C] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3CAEA3]"
-                      placeholder="Your email"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">Message</label>
-                  <textarea
-                      id="message"
-                      rows={4}
-                      className="w-full px-4 py-3 bg-[#2A3B4C] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3CAEA3]"
-                      placeholder="Your message"
-                  ></textarea>
-                </div>
-                <button
-                    type="button"
-                    className="w-full py-3 bg-[#3CAEA3] text-white rounded-lg font-medium hover:bg-[#2D9D92] transition duration-300"
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
+            </div>:
           </div>
         </section>
 
