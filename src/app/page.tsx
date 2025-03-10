@@ -257,7 +257,7 @@ export default function Home() {
                   <span>GitHub</span>
                 </a>
               </div>
-            </div>:
+            </div>
           </div>
         </section>
 
